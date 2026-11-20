@@ -53,9 +53,7 @@ El sitio presenta a Raíz Viva, una ONG dedicada a la conservación y restauraci
 
 ## Ver el sitio
 
-Sitio publicado: https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/
-
-Para verlo en tu computadora, descargá el repositorio y abrí la carpeta en Visual Studio Code. Después usá la extensión **Live Server** sobre `index.html`.
+Sitio publicado: 
 
 ## Autoría
 
