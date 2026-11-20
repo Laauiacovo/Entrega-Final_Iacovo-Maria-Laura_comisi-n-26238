@@ -14,8 +14,7 @@ Sumate	(`pages/contacto.html`):	Formulario de inscripción para voluntariado
 
 **Funcionalidades**
 
-Contenido dinámico: los proyectos, las noticias y las imágenes del carrusel se generan con JavaScript a partir de arreglos de objetos (`js/data.js`).
-Para agregar un proyecto o una noticia alcanza con sumar un objeto al arreglo.
+Contenido dinámico: los proyectos, las noticias y las imágenes del carrusel se generan con JavaScript a partir de arreglos de objetos (`js/data.js`). Para agregar un proyecto o una noticia alcanza con sumar un objeto al arreglo.
 Filtros por categoría: en la página de proyectos, los botones de categoría se crean automáticamente y filtran las tarjetas.
 Noticias guardadas: cada noticia puede marcarse con ★ y se recuerda en el navegador. Hay un filtro para ver solo las guardadas. Las noticias se ordenan de la más reciente a la más antigua.
 Modo oscuro: botón en el menú que cambia el tema y lo mantiene al navegar y al recargar.
