@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raíz Viva | ONG ambiental</title>
+  <meta name="description" content="Proyectos de conservación y noticias ambientales de la ONG Raíz Viva.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-base="">
+  <header>
+    <a class="logo" href="index.html">Raíz Viva</a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="index.html" aria-current="page">Inicio</a></li>
+        <li><a href="pages/proyectos.html">Proyectos</a></li>
+        <li><a href="pages/noticias.html">Noticias</a></li>
+        <li><a href="pages/contacto.html">Sumate</a></li>
+        <li><button class="boton-tema" id="boton-tema" type="button" aria-pressed="false">🌙 Oscuro</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <section class="hero">
+  <div class="carrusel" id="carrusel" aria-roledescription="carrusel" aria-label="Imágenes de nuestros proyectos">
+    <div class="diapositivas"></div>
+    <button class="flecha anterior" type="button" aria-label="Imagen anterior">‹</button>
+    <button class="flecha siguiente" type="button" aria-label="Imagen siguiente">›</button>
+    <div class="puntos"></div>
+  </div>
+  <div class="contenedor">
+    <div class="hero-texto">
+      <h1>Restauramos los ecosistemas que nos cuidan</h1>
+      <p>Somos una organización que protege humedales, recupera sitios degradados mediante la restauración activa y promueve la educación ambiental a través de acciones locales con la comunidad.</p>
+      <a class="boton" href="pages/contacto.html">Quiero participar</a>
+    </div>
+  </div>
+</section>
+
+    <section id="proyectos">
+      <div class="contenedor">
+        <h2>Nuestros proyectos</h2>
+        <div class="tarjetas" id="proyectos-destacados"></div>
+        <p class="ver-mas"><a href="pages/proyectos.html">Ver todos los proyectos →</a></p>
+      </div>
+    </section>
+
+    <section id="noticias" class="noticias">
+      <div class="contenedor">
+        <h2>Noticias ambientales</h2>
+        <div class="tarjetas" id="noticias-destacadas"></div>
+        <p class="ver-mas"><a href="pages/noticias.html">Ver todas las noticias →</a></p>
+      </div>
+    </section>
+
+    <section class="cierre">
+      <div class="contenedor">
+        <h2>Sumate al cambio</h2>
+        <p>Como voluntario, podés ayudar a que estos proyectos sigan creciendo.</p>
+        <a class="boton" href="pages/contacto.html">Ir al formulario</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Raíz Viva · ONG ambiental</p>
+  </footer>
+
+  <script src="js/data.js" defer></script>
+  <script src="js/ui.js" defer></script>
+  <script src="js/data.js" defer></script>
+<script src="js/ui.js" defer></script>
+<script src="js/carrusel.js" defer></script>
+</body>
+</html>
