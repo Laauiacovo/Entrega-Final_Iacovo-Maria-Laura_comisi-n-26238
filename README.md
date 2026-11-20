@@ -74,6 +74,6 @@ El sitio presenta a Raíz Viva, una ONG dedicada a la conservación y restauraci
 
 ## Ver el sitio ##
 
-**Sitio publicado**: 
+**Sitio publicado**: https://laauiacovo.github.io/Entrega-Final_Iacovo-Maria-Laura_comisi-n-26238/
 
 *Proyecto realizado por María Laura Iacovo como parte del curso Front-End JavaScript de Talento Tech*
