@@ -65,11 +65,11 @@ El sitio presenta a Raíz Viva, una ONG dedicada a la conservación y restauraci
 
 └── pages/
 
-├── proyectos.html
+│   ├── proyectos.html
 
-├── noticias.html
+│   ├── noticias.html
 
-├── contacto. html
+│   ├── contacto. html
 
 
 ## Ver el sitio ##
