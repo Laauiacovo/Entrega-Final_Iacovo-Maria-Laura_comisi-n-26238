@@ -46,20 +46,29 @@ El sitio presenta a Raíz Viva, una ONG dedicada a la conservación y restauraci
 ├── index.html
 
 ├── css/
+
 │   └── styles.css
 
 ├── js/
+
 │   ├── data.js        (arreglos de proyectos, noticias y portada)
+
 │   ├── ui.js          (renderizado, filtros, favoritas y modo oscuro)
+
 │   ├── carrusel.js    (carrusel de la portada)
+
 │   └── contacto.js    (formulario de inscripción)
 
 ├── img/
+
 │   └── (fotografías del sitio)
 
 └── pages/
+    
     ├── proyectos.html
+    
     ├── noticias.html
+    
     └── contacto.html
 
 ## Ver el sitio ##
